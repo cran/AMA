@@ -38,7 +38,7 @@ For the details of MODELEZ syntax, see for example \url{http://www.federalreserv
 }
 
 \examples{
-genHmatrixScripts('AMA/extdata/example7.mod')
+genHmatrixScripts(system.file("extdata/example7.mod",package="AMA"))
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the

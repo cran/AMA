@@ -50,7 +50,7 @@ genBmat(cofh, neq, leads, lags, qmax)
 
 
 \examples{
-	hmat = read.table("AMA/extdata/Lcofbob2.cof")
+	hmat <- read.table(system.file("extdata/Lcofbob2.cof",package="AMA"))
 	bmat <- genBmat(hmat, 4, 1, 1)
 
 

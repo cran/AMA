@@ -75,7 +75,7 @@ stochastic transition matrices, labelled script A and script B in [Anderson 2010
 
 
 \examples{
-	hmat = read.table("AMA/extdata/Lcofbob2.cof")
+	hmat = read.table(system.file("extdata/Lcofbob2.cof",package="AMA"))
 	hrows = 4
 	hcols = 12
 	neq = 4

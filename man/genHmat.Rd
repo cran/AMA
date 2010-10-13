@@ -54,7 +54,7 @@ For details about the algorithm:
 
 
 \examples{
-hmat<-genHmat('AMA/extdata/example7.mod','AMA/extdata/example7params.prm')
+hmat<-genHmat(system.file("extdata/example7.mod",package="AMA"),system.file("extdata/example7params.prm",package="AMA"))
 bmat<-genBmat(hmat,4,1,1)
 }
 

@@ -1,7 +1,7 @@
 Package: AMA
 Type: Package
 Title: Anderson-Moore Algorithm
-Version: 1.0.7
+Version: 1.0.8
 Depends: rJava
 Date: 2010-10-13
 Author: Gary Anderson, Aneesh Raghunandan
@@ -30,6 +30,6 @@ Copyright: The "C" code, sparseAim.c, implementing the basic algorithm
         2010, vol 34, issue 3, pp. 472-489. \n
 SystemRequirements: Java
 LazyLoad: yes
-Packaged: 2010-10-27 05:12:27 UTC; hornik
+Packaged: 2010-10-27 15:11:14 UTC; m1gsa00
 Repository: CRAN
-Date/Publication: 2010-10-27 05:19:01
+Date/Publication: 2010-10-27 19:18:40
